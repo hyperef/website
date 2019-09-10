@@ -9,7 +9,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 14px;
-    color: #231;
+    color: #06221a;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -31,12 +31,12 @@ p {
 }
 
 a {
-    color: #8ac748;
+    color: #45B649;
 }
 
 a:hover,
 a:focus {
-    color: #6fa23b;
+    color: #DCE35B;
 }
 
 .container {
@@ -100,8 +100,10 @@ a:focus {
 
 header {
     color: #fff;
-    background: rgb(250,255,108);
-    background: linear-gradient(90deg, rgb(140, 203, 61) 0%, rgb(213, 229, 14) 100%);
+    background: #45B649;
+    background: linear-gradient(to right, #45B649, #DCE35B);
+
+
     padding: 2em 0 4em;
 }
 
@@ -132,8 +134,8 @@ h2 {
 }
 
 section.dark {
-    background-color: #17220b;
-    color: #bcb;
+    background-color: #10180a;
+    color: #969c90;
 }
 
 section.dark h2 {
@@ -205,7 +207,7 @@ code span {
 
 #features {
     background: #f9f9ff;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(140, 203, 61, 0.2) 100%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(220, 227, 91, 0.2) 100%);
 }
 
 .teaser {
